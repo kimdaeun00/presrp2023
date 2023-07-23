@@ -8,6 +8,6 @@ docker run \
 --ipc=host \
 --gpus '"device=0"' \
 -it -v $(dirname `pwd`):/workspace \
--v /home/dekim/datasets/:/workspace/datasets \
+#-v /home/dekim/datasets/:/workspace/datasets \
 --name "presrp2023-$name" \
 $IMAGE:$TAG /bin/bash
