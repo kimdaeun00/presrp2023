@@ -1,0 +1,1 @@
+nsys profile --gpu-metrics-device all --gpu-metrics-frequency=10000 -o output python3 batching.py
